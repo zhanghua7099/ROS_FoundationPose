@@ -23,9 +23,11 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 
 Due to dependecy clashes, FoundationPose and GroundedSAM ROS nodes work in separate docker containers. You can pull working containers for each from:
 ```
-docker pull ghcr.io/shubho-upenn/ros_fp_new_env:latest	## FoundationPose Container Image
-docker pull ghcr.io/shubho-upenn/gsa_ros:latest		## Grounded-Segment-Anything Container Image
+docker pull ghcr.io/zhanghua7099/fp_with_ros_cu121:latest	## FoundationPose Container Image
+docker pull ghcr.io/zhanghua7099/gsa_ros:latest		## Grounded-Segment-Anything Container Image
 ```
+**Note that:** To support RTX 4090 GPU, we made a **new docker image**. 
+
 ### Prerequisites
 1. GPU with Cuda >= 11.7
 2. ROS Noetic
@@ -65,6 +67,12 @@ conda activate test_env
 python3 run_ROS.py -in path/to/obj/file
 ```
 You should see the object being tracked.
+
+Here is a quick test demo that estimates the pose of a gray cylinder:
+
+<img src="demo/demo.gif" alt="result" width="200"/>
+
+As reported in Supplementary Material of the paper, **5.4. Limitations**, foundationpose has difficulty handling texture-less objects. 
 
 ## Acknowldegement
 This repository is based on the work and takes major components from FoundationPose developed by Bowen et. al. (NVLabs) and GroundedSAM from IDEA-Research and Meta.
