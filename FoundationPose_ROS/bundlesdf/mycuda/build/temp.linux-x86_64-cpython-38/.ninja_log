@@ -1,5 +1,5 @@
 # ninja log v5
-0	19355	1717606098904099100	/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/bindings.o	c45a0e0392988c7c
-0	43728	1717606123284114914	/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/common.o	609ffa27f9e26a4e
-2	19532	1717606143228126221	/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/torch_ngp_grid_encoder/bindings.o	1b38b18bc6c45b52
-2	93048	1717606216744158515	/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/home/shubhodeep/Figueroa_Lab/Foundation_Pose/FoundationPose/bundlesdf/mycuda/torch_ngp_grid_encoder/gridencoder.o	848beea3ff82f97f
+0	12241	1762782495414135891	/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/bindings.o	871f9a71db1052c2
+0	28171	1762782511350573539	/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/common.o	1b12fca9c58db4bf
+1	12431	1762782524062922542	/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/torch_ngp_grid_encoder/bindings.o	854ff10c3ddf7245
+1	44371	1762782556003799037	/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/build/temp.linux-x86_64-cpython-38/home/zhy/ROSProject/rs_camera_ws/FoundationPose/FoundationPose_ROS/bundlesdf/mycuda/torch_ngp_grid_encoder/gridencoder.o	2e7a6c4c95c77811

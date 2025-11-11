@@ -139,7 +139,7 @@ class TrackerRos:
   
 if __name__=="__main__":
   parser = argparse.ArgumentParser(description="FoundationPose implementation in ROS")
-  parser.add_argument('-in', '--input', help='Input mesh file', default="mesh/mustard_bottle/textured_mesh.obj")
+  parser.add_argument('-in', '--input', help='Input mesh file', default="mesh/cylinder/cylinder.obj")
   args = parser.parse_args()
 
   rospy.init_node('FoundationPose_Node', anonymous=True)
